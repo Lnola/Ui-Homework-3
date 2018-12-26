@@ -1,0 +1,22 @@
+.start
+{
+    background-image: url("./zavrsni-rad/assets/header-background.png");
+    background-size: contain;
+}
+
+.logo
+{
+    display: inline-block;
+}
+
+.moon
+{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+}
+
+.headerButton
+{
+    display: inline-block;
+}
