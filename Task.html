@@ -10,13 +10,17 @@
 </head>
 
 <body>
-    <h1 class="start">
-        <img class="logo" src="./zavrsni-rad/assets/logo.png">
-        <img class="moon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0WFPi0Iyi9Aqe8gR4FKNXP-iFLKX36ZjCdj_wNM9HFFVj4GpC">
-        <button class="headerButton" type="button" onclick="location.href='#ready'">
-            Join Us
-        </button>
-    </h1>
+    <div class="blueBackground">
+        <div class="navigationBar">
+            <img class="logo" src="./zavrsni-rad/taskbar/logo.png">
+            <div class="rightNav">
+                <img class="moon" src="./zavrsni-rad/taskbar/moon.png">
+                <button class="headerButton buttonToSendFromInput" type="button" onclick="location.href='#ready'">
+                    Join Us
+                </button>
+            </div>
+        </div>
+    </div>
     <div class="newArticle">
         <p class="introTitle">
             We are building an ARK this Christmas!
@@ -39,7 +43,7 @@
             </button>
         </p>
     </div>
-    <div class="firstArticle">
+    <div class="nonCenteredArticle">
         <div class="firstArticleText">
             <p class="articleTitle">
                 So here’s the plan.
@@ -77,40 +81,45 @@
             <p class="ideaInfo">
                 *enter multiple ideas seperated with a comma
             </p>
-            <button class="buttonToSend" type="button" onclick="location.href='https://tenor.com/view/donald-trump-you-have-to-go-back-gif-5533515'">
+            <button class="buttonToSendFromInput" type="button" onclick="location.href='https://tenor.com/view/donald-trump-you-have-to-go-back-gif-5533515'">
                 Send my idea!
             </button>
         </div>
     </div>
-    <div class="thirdArticle">
+    <div class="nonCenteredArticle">
         <img src="./zavrsni-rad/assets/image-handshake.png">
-        <div class="firstArticleText">
+        <div class="thirdArticleText">
             <p class="articleTitle">
                 And after Christmas?
             </p>
             <p>
-                We will be donating 5% of Cregital’s monthly revenue to a charitable cause. ARK will be our own way to give
-                back as part of your celebration. We will partner with charitable organizations that are making a
+                We will be donating 5% of Cregital’s monthly revenue to a charitable cause. ARK will be our own way to
+                give
+                back as part of your celebration. We will partner with charitable organizations that are making a
                 difference.
                 <a href="https://tenor.com/view/donald-trump-you-have-to-go-back-gif-5533515"> Email us. </a>
             </p>
         </div>
     </div>
     <div id="ready" class="newArticle">
-        <p>
-            Ready to join us this Christmas?
-        </p>
-        <p>
-            Im
-            <input placeholder="first name" />
-            , my email is
-            <input placeholder="email adress" />
-            and you can call me on
-            <input placeholder="080xxxxxxxx" />
-        </p>
-        <button type="button" onclick="location.href='https://tenor.com/view/donald-trump-you-have-to-go-back-gif-5533515'">
-            Yes! Let's do this!
-        </button>
+        <div class="lastArticle">
+            <p class="lastArticleTitle articleTitle">
+                Ready to join us this Christmas?
+            </p>
+            <div class="lastArticleInput">
+                <p class="giftInfo">
+                    I'm
+                    <input class="nameInput ideaInput" placeholder="first name" />
+                    , my email is
+                    <input class="lastInput ideaInput" placeholder="email adress" />
+                    and you can call me on
+                    <input class="lastInput ideaInput" placeholder="080xxxxxxxx" />
+                </p>
+            </div>
+            <button class="buttonToSendFromInput" type="button" onclick="location.href='https://tenor.com/view/donald-trump-you-have-to-go-back-gif-5533515'">
+                Yes! Let's do this!
+            </button>
+        </div>
     </div>
     <div class="copyright">
         <p>
