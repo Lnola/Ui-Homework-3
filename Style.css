@@ -16,12 +16,17 @@ body
 {
     font-family: "Graphik", sans-serif;
     font-weight: 400;
-    max-width: 1260px;
-    margin: auto;
+    margin: 0;
     text-align: center;
     font-size: 1em;
     color: rgba(0, 0, 0, 0.678);
     line-height: 1.3;
+}
+
+.generalStyleAndPosition
+{
+    max-width: 1260px;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -132,8 +137,7 @@ button:hover
 .nonCenteredArticle
 {
     display: flex;
-    margin-top: 60px;
-    margin-bottom: 30px;
+    margin: 60px 0 30px 60px;
 }
 
 .firstArticleText
