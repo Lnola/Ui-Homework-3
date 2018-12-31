@@ -52,15 +52,25 @@ button:hover
 
 .navigationBar
 {
-    background-image: url("./zavrsni-rad/assets/header-background.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    background-size: 1000px;
-    padding-bottom: 400px;
+    /* I tried to implement the fixed navigation bar but I can't change the color of the bar when
+    scrolling with the knowledge I have (I don't know how to detect scrolling) so I decided to 
+    comment to show I at least tried :). If you uncomment it should work but I doesn't look nice */
+
+    /*position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 1260px;*/
     display: flex;
     justify-content: space-between;
     max-height: 100px;
+}
+
+.headerImage
+{
+    width: 1000px;
+    margin: 15px auto 0 auto;
 }
 
 .logo
@@ -197,6 +207,7 @@ button:hover
     line-height: 1.4;
     box-sizing: border-box;
     background-color: transparent;
+    outline: none;
 }
 
 ::placeholder
